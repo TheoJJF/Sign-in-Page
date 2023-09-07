@@ -73,6 +73,18 @@ h2
     color: aliceblue;
 }
 
+.entry-box input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: inherit;
+    color: aliceblue;
+}
+
 .entry-box label 
 {
     position: absolute;
@@ -100,7 +112,14 @@ h2
     color: aliceblue;
 }
 
-  
+.entry-box input[type="password"]:focus + label,
+.entry-box input[type="password"]:valid + label 
+{
+    transform: translateY(-150%);
+    font-size: 0.8em; 
+    color: aliceblue;
+}
+
   
   
   
