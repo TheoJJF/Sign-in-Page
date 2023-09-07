@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;700;900&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    font-family: "Gothic A1", "sans-serif";
+
+    background: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    width: 100%;
+}
+
+.inputs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    z-index: 2;
+
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: 550px;
+    width: 450px;
+}
+
+.entry-box
+{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    position: relative;
+    font-size: 18px;
+}
+
+.entry-box input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: inherit;
+    color: aliceblue;
+}
+
+.entry-box label 
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-75%);
+    color: #f5f5f5;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.entry-box svg 
+{
+    fill: #f5f5f5;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+}
+
+.entry-box input[type="text"]:focus + label,
+.entry-box input[type="text"]:valid + label 
+{
+    transform: translateY(-150%);
+    font-size: 0.8em; 
+    color: aliceblue;
+}
+
+  
+  
+  
+  
+  
+  
