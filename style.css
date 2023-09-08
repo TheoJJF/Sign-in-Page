@@ -178,4 +178,33 @@ p
     border: none;
     padding: 15px 130px;
     border-radius: 20px;
+    font-size: 16px;
+}
+
+.sign-up-button
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sign-up
+{
+    background-color: transparent;
+    color: aliceblue;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sign-up:hover
+{
+    background-color: #3e69ad; 
 }
