@@ -1,15 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;700;900&display=swap');
 
+:root
+{
+    font-size: 16px;
+    font-family: "Gothic A1", "sans-serif";
+    --text-primary: #b6b6b6;
+    --text-seconday: aliceblue;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
+html
+{
+    overflow: hidden;
+    height: 100%;
+}
+
 body
 {
     margin: 0;
     padding: 0;
+
+    overflow: auto;
+    height: 100%;
+    overscroll-behavior: none;
 }
 
 main
 {
     font-family: "Gothic A1", "sans-serif";
 
+    margin-left: 5rem;
+    padding: 1rem;
     background: url(assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +43,29 @@ main
     flex-direction: column;
 }
 
+/* Scroll bar only affects google chrome at the moment */
+body::-webkit-scrollbar
+{
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track
+{
+    background-color: #d1c0a8;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: #3e69ad;
+}
+
+.navbar
+{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+}
 
 h2
 {
