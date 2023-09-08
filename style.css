@@ -104,7 +104,7 @@ p
     position: absolute;
     top: 50%;
     left: 10px;
-    transform: translateY(-75%);
+    transform: translateY(-50%);
     color: #f5f5f5;
     pointer-events: none;
     transition: 0.2s;
