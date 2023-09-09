@@ -67,6 +67,7 @@ body::-webkit-scrollbar-thumb
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 500ms ease;
+    z-index: 2;
 }
 
 .logo svg
@@ -178,7 +179,7 @@ p
     justify-content: center;
     position: relative;
     flex-direction: column;
-    z-index: 2;
+    z-index: 1;
 
     border: 2px;
     border-style: solid;
