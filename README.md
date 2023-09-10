@@ -1,2 +1,2 @@
-# Front-end Website
-A website made with HTML and CSS
+# Sign-in Page
+An animated sign-in page made with HTML and CSS
