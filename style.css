@@ -3,7 +3,7 @@
 :root
 {
     font-size: 16px;
-    font-family: "Gothic A1", "sans-serif";
+    font-family: "Gothic A1", "Century Gothic";
     --text-primary: #b6b6b6;
     --text-seconday: aliceblue;
     --bg-primary: #23232e;
@@ -29,7 +29,6 @@ body
 
 main
 {
-    font-family: "Gothic A1", "sans-serif";
 
     background: url(assets/background.jpg);
     background-repeat: no-repeat;
