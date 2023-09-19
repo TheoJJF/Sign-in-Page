@@ -30,7 +30,7 @@ body
 main
 {
     font-family: "Gothic A1", "sans-serif";
-    
+
     background: url(assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ main
     flex-direction: column;
 }
 
-/* Scroll bar only affects google chrome at the moment */
+/* Scroll bar (Google Chrome ONLY)
 body::-webkit-scrollbar
 {
     width: 0.25rem;
@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb
 {
     background-color: #3e69ad;
 }
-
+Scroll bar (Google Chrome ONLY) */
 
 
 h2
@@ -193,11 +193,12 @@ p
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    opacity: 1;
 }
 
 .forget:hover
 {
-    background-color: #3e69ad; 
+    background: rgba(62, 105, 173, .6);
 }
 
 .sign-in-button
@@ -239,9 +240,10 @@ p
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    opacity: 1;
 }
 
 .sign-up:hover
 {
-    background-color: #3e69ad; 
+    background: rgba(62, 105, 173, .6);
 }
