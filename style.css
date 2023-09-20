@@ -189,6 +189,7 @@ p
     border-radius: 20px;
     font-size: 16px;
     text-align: center;
+    letter-spacing: normal;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -217,6 +218,8 @@ p
     padding: 15px 130px;
     border-radius: 30px;
     font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
 }
 
 .sign-up-button
@@ -238,6 +241,7 @@ p
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    letter-spacing: normal;
     transition: background-color 0.3s;
     opacity: 1;
 }
