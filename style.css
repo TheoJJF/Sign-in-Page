@@ -251,3 +251,34 @@ p
     background: rgba(62, 105, 173, .6);
 }
 
+.other-login-separator
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.85em;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    margin: 20px;
+    padding: 0;
+}
+
+.other-login-separator::before,
+.other-login-separator::after
+{
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid aliceblue;
+}
+
+.other-login-separator:not(:empty)::before
+{
+    margin-right: 0.8em;
+}
+
+.other-login-separator:not(:empty)::after
+{
+    margin-left: 0.8em;
+}
+
