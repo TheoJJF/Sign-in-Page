@@ -95,7 +95,7 @@ p
     border-color: aliceblue;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    height: 500px;
+    height: 600px;
     width: 350px;
 }
 
@@ -249,4 +249,35 @@ p
 .sign-up:hover
 {
     background: rgba(62, 105, 173, .6);
+}
+
+.other-login-separator
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    margin: 20px;
+    padding: none;
+}
+
+.other-login-separator::before,
+.other-login-separator::after
+{
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid aliceblue;
+}
+
+.other-login-separator:not(:empty)::before
+{
+    margin-right: 1em;
+}
+
+.other-login-separator:not(:empty)::after
+{
+    margin-left: 1em;
 }
