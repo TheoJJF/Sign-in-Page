@@ -90,7 +90,7 @@ p
     border-color: aliceblue;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    height: 600px;
+    height: 550px;
     width: 350px;
 }
 
@@ -292,4 +292,5 @@ p
 {
     fill: aliceblue;
     background-color: transparent;
+    padding-bottom: 15px;
 }
