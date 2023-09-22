@@ -3,12 +3,7 @@
 :root
 {
     font-size: 16px;
-    font-family: "Gothic A1", "Century Gothic";
-    --text-primary: #b6b6b6;
-    --text-seconday: aliceblue;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
-    --transition-speed: 500ms
+    font-family: "Gothic A1", "Monaco";
 }
 
 html
@@ -29,8 +24,12 @@ body
 
 main
 {
+<<<<<<< HEAD
 
     background: url(assets/background1.JPG);
+=======
+    background: url(assets/background1.jpg);
+>>>>>>> bbac82a0c7cf51afa9c6f4f195479965bfad7e1e
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -40,24 +39,6 @@ main
     justify-content: center;
     flex-direction: column;
 }
-
-/* Scroll bar (Google Chrome ONLY)
-body::-webkit-scrollbar
-{
-    width: 0.25rem;
-}
-
-body::-webkit-scrollbar-track
-{
-    background-color: #d1c0a8;
-}
-
-body::-webkit-scrollbar-thumb
-{
-    background-color: #3e69ad;
-}
-Scroll bar (Google Chrome ONLY) */
-
 
 h2
 {
@@ -81,7 +62,7 @@ p
     width: 100%;
 }
 
-.inputs
+.entries
 {
     display: flex;
     align-items: center;
@@ -94,8 +75,8 @@ p
     border-style: solid;
     border-color: aliceblue;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
-    height: 600px;
+    backdrop-filter: blur(20px);
+    height: 550px;
     width: 350px;
 }
 
@@ -142,14 +123,14 @@ p
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-    color: #f5f5f5;
+    color: aliceblue;
     pointer-events: none;
     transition: 0.3s;
 }
 
 .entry-box svg 
 {
-    fill: #f5f5f5;
+    fill: aliceblue;
     margin-right: 5px;
     width: 1em;
     height: 1em;
@@ -198,7 +179,7 @@ p
 
 .forget:hover
 {
-    background: rgba(62, 105, 173, .6);
+    background: rgba(0, 114, 177, .5);
 }
 
 .sign-in-button
@@ -212,12 +193,13 @@ p
 
 .sign-in
 {
-    background-color: #3e69ad;
+    background-color: #0072b1;
     color: aliceblue;
     border: none;
     padding: 15px 130px;
     border-radius: 30px;
     font-size: 16px;
+    font-family: inherit;
     text-decoration: none;
     letter-spacing: 0.1em;
 }
@@ -248,6 +230,54 @@ p
 
 .sign-up:hover
 {
-    background: rgba(62, 105, 173, .6);
+    background: rgba(0, 114, 177, .5);
 }
 
+.other-login-separator
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.85em;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    margin: 20px;
+    padding-top: 5px;
+}
+
+.other-login-separator::before,
+.other-login-separator::after
+{
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid aliceblue;
+}
+
+.other-login-separator:not(:empty)::before
+{
+    margin-right: 0.8em;
+}
+
+.other-login-separator:not(:empty)::after
+{
+    margin-left: 0.8em;
+}
+
+.alt-sign-in
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.alt-sign-in svg
+{
+    fill: aliceblue;
+    background-color: transparent;
+    padding-bottom: 15px;
+}
