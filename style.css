@@ -24,12 +24,7 @@ body
 
 main
 {
-<<<<<<< HEAD
-
     background: url(assets/background1.JPG);
-=======
-    background: url(assets/background1.jpg);
->>>>>>> bbac82a0c7cf51afa9c6f4f195479965bfad7e1e
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
