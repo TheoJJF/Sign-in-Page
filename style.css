@@ -118,14 +118,14 @@ p
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-    color: #f5f5f5;
+    color: aliceblue;
     pointer-events: none;
     transition: 0.3s;
 }
 
 .entry-box svg 
 {
-    fill: #f5f5f5;
+    fill: aliceblue;
     margin-right: 5px;
     width: 1em;
     height: 1em;
