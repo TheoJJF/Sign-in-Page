@@ -89,7 +89,7 @@ p
     border-style: solid;
     border-color: aliceblue;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     height: 550px;
     width: 350px;
 }
